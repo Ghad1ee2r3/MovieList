@@ -1,11 +1,11 @@
 const list = [
     {
       id:1,
-      name: "Chocolate Chip Cookie",
+      name: "movie",
      },
     {
       id:2,
-      name: "Cute Cookie",
+      name: "movie2",
       },
   
    

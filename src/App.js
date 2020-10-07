@@ -121,7 +121,7 @@ const handleDeletetwo = (id) => {
   };
  
   
-
+// <SearchBar setQuery={setQuery} />
  
   return (
 
@@ -134,13 +134,14 @@ const handleDeletetwo = (id) => {
         </button></list>
 
     <div >
-    <SearchBar setQuery={setQuery} />
+   
 <div> 
-    <input type="text" value={name} onChange={handleChangeSearch} />
+    </div>
+        <Title>
+        <input type="text" value={name} onChange={handleChangeSearch} />
     <button type="button" >
           search
-        </button></div>
-        <Title> <h5>WatchList</h5><p>LENGTH OF LIST : {lengthlist}</p></Title>
+        </button> <h5>WatchList</h5><p>LENGTH OF LIST : {lengthlist}</p></Title>
      
      
       <Liststyle><ul>
@@ -149,6 +150,10 @@ const handleDeletetwo = (id) => {
         ))}
       </ul></Liststyle>
      <Title>
+     <input type="text" value={name} onChange={handleChangeSearch} />
+    <button type="button" >
+          search
+        </button> 
       <h5>Watched </h5> <p>LENGTH OF LIST :{lengthlisttwo}</p></Title>
 
 
