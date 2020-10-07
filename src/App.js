@@ -24,7 +24,7 @@ import SearchBar from "./searchbar";
 function App() {
   
 
- const [List, setList] = React.useState(list);
+ const [List, setList] = React.useState([]);
  const [lengthlist, setLengthlist] = useState(List.length);
  const [Listtwo, setListtwo] = React.useState([]);
  const [lengthlisttwo, setLengthlisttwo] = useState(Listtwo.length);
@@ -132,8 +132,7 @@ const handleDeletetwo = (id) => {
         <button type="button" onClick={handleAdd}>
           Add
         </button></list>
-
-    <div >
+<div >
    
 <div> 
     </div>
